@@ -1,0 +1,18 @@
+@mixin box
+    display: block
+    width: 250px
+    height: 200px
+    background-color: green
+
+@mixin boxx
+    display: block
+    width: 250px
+    height: 200px
+    background-color: blue
+
+
+h1
+    color: blue
+    text-transform: uppercase
+h2
+    @include box
